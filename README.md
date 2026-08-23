@@ -1,5 +1,7 @@
 # JWT Env Secret Generator
 
+![Icona](https://github.com/Noylah/jwt-env/raw/main/icon.png)
+
 A lightweight Visual Studio Code extension designed to generate secure, cryptographically random JWT secrets directly into your `.env` file with a single command.
 
 ---
