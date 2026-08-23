@@ -2,7 +2,7 @@
   "name": "jwt-env",
   "displayName": "Jwt ENV",
   "description": "Generate JWT_SECRET in .env file.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "noylah",
   "repository": {
     "type": "git",
