@@ -3,6 +3,12 @@
   "displayName": "Jwt ENV",
   "description": "Generate JWT_SECRET in .env file.",
   "version": "0.0.1",
+  "publisher": "noylah",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Noylah/jwt-env.git"
+  },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.134.0"
   },
