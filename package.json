@@ -21,7 +21,7 @@
     "commands": [
       {
         "command": "jwt-env.generateJwtSecret",
-        "title": "Generate Jwt Secret in .env"
+        "title": "JWTenv: Generate Jwt Secret in .env"
       }
     ]
   },
