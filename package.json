@@ -4,6 +4,14 @@
   "description": "Generate JWT_SECRET in .env file.",
   "version": "0.0.2",
   "publisher": "noylah",
+  "keywords": [
+    "jwt",
+    "env",
+    "secret",
+    "generator",
+    "security",
+    "dotenv"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Noylah/jwt-env.git"
@@ -21,7 +29,19 @@
     "commands": [
       {
         "command": "jwt-env.generateJwtSecret",
-        "title": "JWTenv: Generate Jwt Secret in .env"
+        "title": "JWTenv: Generate Jwt Secret in .env (Custom)"
+      },
+      {
+        "command": "jwt-env.generateQuickJwtSecret",
+        "title": "JWTenv: Generate Jwt Secret in .env (Quick)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "jwt-env.generateQuickJwtSecret",
+        "key": "ctrl+alt+j",
+        "mac": "cmd+alt+j",
+        "when": "editorTextFocus"
       }
     ]
   },
